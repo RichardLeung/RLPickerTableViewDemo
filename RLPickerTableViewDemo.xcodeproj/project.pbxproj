@@ -14,6 +14,7 @@
 		A617C5721A086402005A36C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A617C5711A086402005A36C9 /* Images.xcassets */; };
 		A617C5751A086402005A36C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A617C5731A086402005A36C9 /* LaunchScreen.xib */; };
 		A617C5811A086402005A36C9 /* RLPickerTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A617C5801A086402005A36C9 /* RLPickerTableViewDemoTests.m */; };
+		A617C58C1A0864BC005A36C9 /* RLPickerTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A617C58A1A0864BC005A36C9 /* RLPickerTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		A617C57A1A086402005A36C9 /* RLPickerTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLPickerTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A617C57F1A086402005A36C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A617C5801A086402005A36C9 /* RLPickerTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLPickerTableViewDemoTests.m; sourceTree = "<group>"; };
+		A617C58A1A0864BC005A36C9 /* RLPickerTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLPickerTableView.m; sourceTree = "<group>"; };
+		A617C58B1A0864BC005A36C9 /* RLPickerTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLPickerTableView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				A617C5691A086402005A36C9 /* AppDelegate.m */,
 				A617C56B1A086402005A36C9 /* ViewController.h */,
 				A617C56C1A086402005A36C9 /* ViewController.m */,
+				A617C58B1A0864BC005A36C9 /* RLPickerTableView.h */,
+				A617C58A1A0864BC005A36C9 /* RLPickerTableView.m */,
 				A617C56E1A086402005A36C9 /* Main.storyboard */,
 				A617C5711A086402005A36C9 /* Images.xcassets */,
 				A617C5731A086402005A36C9 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A617C56D1A086402005A36C9 /* ViewController.m in Sources */,
+				A617C58C1A0864BC005A36C9 /* RLPickerTableView.m in Sources */,
 				A617C56A1A086402005A36C9 /* AppDelegate.m in Sources */,
 				A617C5671A086402005A36C9 /* main.m in Sources */,
 			);

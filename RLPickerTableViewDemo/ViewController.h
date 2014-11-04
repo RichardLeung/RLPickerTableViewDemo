@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)buttonClick:(id)sender;
 
+- (IBAction)buttonNavigationBar:(id)sender;
+- (IBAction)buttonViewClick:(id)sender;
 @end
 
